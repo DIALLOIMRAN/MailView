@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="MailView" Class="ModelDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.137.1;Initial Catalog=MailView;User ID=MailViewConnector" SettingsObjectName="MailView.Properties.Settings" SettingsPropertyName="MailViewConnectionString7" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Mail" Member="Mail">
+    <Type Name="Mail">
+      <Column Name="Id_mail" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="adresse_source" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="adresse_dest" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="objet" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="contenu" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="date_msg" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="etat_msg" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Mail_MailBoxMail" Member="MailBoxMail" ThisKey="Id_mail" OtherKey="Mail_Id_mail" Type="MailBoxMail" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MailBox" Member="MailBox">
+    <Type Name="MailBox">
+      <Column Name="Id_mailbox" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="libellé" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="UserId_user" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="MailBox_MailBoxMail" Member="MailBoxMail" ThisKey="Id_mailbox" OtherKey="MailBox_Id_mailbox" Type="MailBoxMail" />
+      <Association Name="User_MailBox" Member="User" ThisKey="UserId_user" OtherKey="Id_user" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MailBoxMail" Member="MailBoxMail">
+    <Type Name="MailBoxMail">
+      <Column Name="MailBox_Id_mailbox" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Mail_Id_mail" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Mail_MailBoxMail" Member="Mail" ThisKey="Mail_Id_mail" OtherKey="Id_mail" Type="Mail" IsForeignKey="true" />
+      <Association Name="MailBox_MailBoxMail" Member="MailBox" ThisKey="MailBox_Id_mailbox" OtherKey="Id_mailbox" Type="MailBox" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[User]" Member="User">
+    <Type Name="User">
+      <Column Name="Id_user" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nom" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="prenom" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="adresse_email" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="sexe" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="connecté" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="photo" Type="System.Byte[]" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="numTelephone" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="User_MailBox" Member="MailBox" ThisKey="Id_user" OtherKey="UserId_user" Type="MailBox" />
+      <Association Name="User_UserUser" Member="UserUser" ThisKey="Id_user" OtherKey="User1_Id_user" Type="UserUser" />
+      <Association Name="User_UserUser1" Member="UserUser1" ThisKey="Id_user" OtherKey="User2_Id_user" Type="UserUser" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserUser" Member="UserUser">
+    <Type Name="UserUser">
+      <Column Name="User1_Id_user" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="User2_Id_user" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="User_UserUser" Member="User" ThisKey="User1_Id_user" OtherKey="Id_user" Type="User" IsForeignKey="true" />
+      <Association Name="User_UserUser1" Member="User1" ThisKey="User2_Id_user" OtherKey="Id_user" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,84 @@
+D:\projets\application de messagerie          électronique          ( MailView )\MailView\MailView\bin\Debug\MailView.exe.config
+D:\projets\application de messagerie électronique  MailView\code source\MailView\bin\Debug\MailView.exe.config
+D:\projets\application de messagerie électronique  MailView\code source\MailView\obj\Debug\MailView.csprojResolveAssemblyReference.cache
+D:\projets\application de messagerie électronique  MailView\code source\MailView\obj\Debug\MailView.Properties.Resources.resources
+D:\projets\application de messagerie électronique  MailView\code source\MailView\obj\Debug\MailView.csproj.GenerateResource.Cache
+D:\projets\application de messagerie électronique  MailView\code source\MailView\bin\Debug\MailView.exe
+D:\projets\application de messagerie électronique  MailView\code source\MailView\bin\Debug\MailView.pdb
+D:\projets\application de messagerie électronique  MailView\code source\MailView\bin\Debug\EntityFramework.dll
+D:\projets\application de messagerie électronique  MailView\code source\MailView\bin\Debug\EntityFramework.SqlServer.dll
+D:\projets\application de messagerie électronique  MailView\code source\MailView\bin\Debug\EntityFramework.xml
+D:\projets\application de messagerie électronique  MailView\code source\MailView\bin\Debug\EntityFramework.SqlServer.xml
+D:\projets\application de messagerie électronique  MailView\code source\MailView\bin\Debug\fr\EntityFramework.resources.dll
+D:\projets\application de messagerie électronique  MailView\code source\MailView\obj\Debug\MailView.exe
+D:\projets\application de messagerie électronique  MailView\code source\MailView\obj\Debug\MailView.pdb
+D:\projets\application de messagerie électronique  MailView\code source\MailView\obj\Debug\MailView.IHM.Index.resources
+D:\projets\application de messagerie électronique  MailView\code source\MailView\obj\Debug\MailView.IHM.Inscription.resources
+D:\projets\application de messagerie électronique  MailView\code source\MailView\obj\Debug\MailView.IHM.Accueil.resources
+F:\Projet C#\code source\MailView\bin\Debug\MailView.exe.config
+F:\Projet C#\code source\MailView\obj\Debug\MailView.exe
+F:\Projet C#\code source\MailView\obj\Debug\MailView.pdb
+D:\projets\code source\MailView\bin\Debug\MailView.exe.config
+D:\projets\code source\MailView\obj\Debug\MailView.exe
+D:\projets\code source\MailView\obj\Debug\MailView.pdb
+D:\projets\application de messagerie électronique  MailView\code source\MailView\obj\Debug\MailView.IHM.PasswordOublie.resources
+H:\code source\MailView\bin\Debug\MailView.exe.config
+H:\code source\MailView\obj\Debug\MailView.exe
+H:\code source\MailView\obj\Debug\MailView.pdb
+H:\code source\MailView\bin\Debug\MailView.exe
+H:\code source\MailView\bin\Debug\MailView.pdb
+H:\code source\MailView\bin\Debug\EntityFramework.dll
+H:\code source\MailView\bin\Debug\EntityFramework.SqlServer.dll
+H:\code source\MailView\bin\Debug\EntityFramework.xml
+H:\code source\MailView\bin\Debug\EntityFramework.SqlServer.xml
+H:\code source\MailView\bin\Debug\fr\EntityFramework.resources.dll
+H:\code source\MailView\obj\Debug\MailView.csprojResolveAssemblyReference.cache
+H:\code source\MailView\obj\Debug\MailView.IHM.Accueil.resources
+H:\code source\MailView\obj\Debug\MailView.IHM.Index.resources
+H:\code source\MailView\obj\Debug\MailView.IHM.Inscription.resources
+H:\code source\MailView\obj\Debug\MailView.IHM.PasswordOublie.resources
+H:\code source\MailView\obj\Debug\MailView.Properties.Resources.resources
+H:\code source\MailView\obj\Debug\MailView.csproj.GenerateResource.Cache
+F:\Projet C#\code source\MailView\bin\Debug\MailView.exe
+F:\Projet C#\code source\MailView\bin\Debug\MailView.pdb
+F:\Projet C#\code source\MailView\bin\Debug\EntityFramework.dll
+F:\Projet C#\code source\MailView\bin\Debug\EntityFramework.SqlServer.dll
+F:\Projet C#\code source\MailView\bin\Debug\EntityFramework.xml
+F:\Projet C#\code source\MailView\bin\Debug\EntityFramework.SqlServer.xml
+F:\Projet C#\code source\MailView\bin\Debug\fr\EntityFramework.resources.dll
+F:\Projet C#\code source\MailView\obj\Debug\MailView.csprojResolveAssemblyReference.cache
+F:\Projet C#\code source\MailView\obj\Debug\MailView.IHM.Accueil.resources
+F:\Projet C#\code source\MailView\obj\Debug\MailView.IHM.Index.resources
+F:\Projet C#\code source\MailView\obj\Debug\MailView.IHM.Inscription.resources
+F:\Projet C#\code source\MailView\obj\Debug\MailView.IHM.PasswordOublie.resources
+F:\Projet C#\code source\MailView\obj\Debug\MailView.Properties.Resources.resources
+F:\Projet C#\code source\MailView\obj\Debug\MailView.csproj.GenerateResource.Cache
+F:\Projet C#\code source\MailView\obj\Debug\MailView.NouveauMessage.resources
+D:\projets\application de messagerie électronique  MailView\code source\MailView\obj\Debug\MailView.NouveauMessage.resources
+D:\projets\application de messagerie électronique  MailView\code source\MailView\obj\Debug\MailView.IHM.Conversation.resources
+H:\code source\MailView\obj\Debug\MailView.IHM.Conversation.resources
+H:\code source\MailView\obj\Debug\MailView.NouveauMessage.resources
+F:\Projet C#\code source\MailView\obj\Debug\MailView.IHM.Conversation.resources
+F:\Projet C#\code source\MailView\obj\Debug\MailView.IHM.Form1.resources
+J:\code source\MailView\bin\Debug\MailView.exe.config
+J:\code source\MailView\obj\Debug\MailView.exe
+J:\code source\MailView\obj\Debug\MailView.pdb
+J:\code source\MailView\bin\Debug\MailView.exe
+J:\code source\MailView\bin\Debug\MailView.pdb
+J:\code source\MailView\bin\Debug\EntityFramework.dll
+J:\code source\MailView\bin\Debug\EntityFramework.SqlServer.dll
+J:\code source\MailView\bin\Debug\EntityFramework.xml
+J:\code source\MailView\bin\Debug\EntityFramework.SqlServer.xml
+J:\code source\MailView\bin\Debug\fr\EntityFramework.resources.dll
+J:\code source\MailView\obj\Debug\MailView.csprojResolveAssemblyReference.cache
+J:\code source\MailView\obj\Debug\MailView.IHM.Accueil.resources
+J:\code source\MailView\obj\Debug\MailView.IHM.Conversation.resources
+J:\code source\MailView\obj\Debug\MailView.IHM.Index.resources
+J:\code source\MailView\obj\Debug\MailView.IHM.Inscription.resources
+J:\code source\MailView\obj\Debug\MailView.NouveauMessage.resources
+J:\code source\MailView\obj\Debug\MailView.IHM.PasswordOublie.resources
+J:\code source\MailView\obj\Debug\MailView.Properties.Resources.resources
+J:\code source\MailView\obj\Debug\MailView.csproj.GenerateResource.Cache
+C:\Users\TOSHIBA\Desktop\code source\MailView\bin\Debug\MailView.exe.config
+C:\Users\TOSHIBA\Desktop\code source\MailView\obj\Debug\MailView.exe
+C:\Users\TOSHIBA\Desktop\code source\MailView\obj\Debug\MailView.pdb

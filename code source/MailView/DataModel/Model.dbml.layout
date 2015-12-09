@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Model">
+  <DataContextMoniker Name="/ModelDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f111127a-7b61-4109-8a69-876e56aa5722" absoluteBounds="3.5, 5.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/ModelDataContext/Mail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a145182a-0fd4-4051-a727-fdcf92e34cde" absoluteBounds="3.515, 5.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7cd55352-b618-47ce-9d48-883721bd3b4a" absoluteBounds="3.5, 2.875, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/ModelDataContext/MailBox" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3e5edf04-4e67-4800-a73a-e6f840969993" absoluteBounds="3.515, 3.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e459238a-7bd5-4476-90d1-7e2120e6ab28" absoluteBounds="6.25, 3, 2, 1.193992513020834">
+      <DataClassMoniker Name="/ModelDataContext/MailBoxMail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ab06f7f6-2654-44c1-9141-78992c0253aa" absoluteBounds="6.265, 3.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c9102ec5-55a7-49c5-b79f-e963356a7572" absoluteBounds="0.75, 1.375, 2, 2.5401025390624996">
+      <DataClassMoniker Name="/ModelDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58484150-112f-442d-87ac-795403b9d260" absoluteBounds="0.765, 1.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1dd39472-812b-4289-bb93-59b1e9f89e0e" absoluteBounds="3.5, 1, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/ModelDataContext/UserUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5450c8fb-ae71-4cf5-9895-4db01f2d4256" absoluteBounds="3.515, 1.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 6.57774983723958); (7.25 : 6.57774983723958); (7.25 : 4.19399251302083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ModelDataContext/Mail/Mail_MailBoxMail" />
+      <nodes>
+        <classShapeMoniker Id="f111127a-7b61-4109-8a69-876e56aa5722" />
+        <classShapeMoniker Id="e459238a-7bd5-4476-90d1-7e2120e6ab28" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 3.59699625651042); (6.25 : 3.59699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ModelDataContext/MailBox/MailBox_MailBoxMail" />
+      <nodes>
+        <classShapeMoniker Id="7cd55352-b618-47ce-9d48-883721bd3b4a" />
+        <classShapeMoniker Id="e459238a-7bd5-4476-90d1-7e2120e6ab28" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.39505126953125); (3.5 : 3.39505126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ModelDataContext/User/User_MailBox" />
+      <nodes>
+        <classShapeMoniker Id="c9102ec5-55a7-49c5-b79f-e963356a7572" />
+        <classShapeMoniker Id="7cd55352-b618-47ce-9d48-883721bd3b4a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.78449625651042); (3.5 : 1.78449625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ModelDataContext/User/User_UserUser" />
+      <nodes>
+        <classShapeMoniker Id="c9102ec5-55a7-49c5-b79f-e963356a7572" />
+        <classShapeMoniker Id="1dd39472-812b-4289-bb93-59b1e9f89e0e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.51724812825521); (3.5 : 1.51724812825521)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ModelDataContext/User/User_UserUser1" />
+      <nodes>
+        <classShapeMoniker Id="c9102ec5-55a7-49c5-b79f-e963356a7572" />
+        <classShapeMoniker Id="1dd39472-812b-4289-bb93-59b1e9f89e0e" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
